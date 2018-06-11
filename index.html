@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Sticky Note Application - Front-End assignment</title>
+      <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet"> 
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <div id="mainTitle">
+            <h1 class="titleText">Sticky Notes</h1>
+            <br>
+            <div class="menuIcon" id="showNewNote"><img src="img/pencil.png"><h6>New Note</h6></div>
+            <div class="menuIcon" id="showAllNotes"><img src="img/stickyNote.png"><h6>All Notes</h6></div>
+            <div class="menuIcon" id="searchAllNotes"><img src="img/search-icon-red.png"><input id="searchInput" type="text" placeholder="Search Titles Here"><h6>Search Notes</h6></div>
+                  
+      </div>
+
+      <div id="mainContent">
+            
+            <form id="newNoteForm">
+                  Title: <br>
+                  <input type="text" name="title" id="newNoteTitle"/><br>
+                  Text: <br>
+                  <textarea id="newNoteText"></textarea><br>
+                  <button id="createNewNote">Submit</button>
+            </form>
+
+            <div id="noteViewer">
+
+            </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
