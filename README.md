@@ -9,6 +9,7 @@ External Resource:
 Google Fonts
 
 Demo at:
+https://jchuajy.github.io/stickynote/
 
 Instructions:
 Clone respository
