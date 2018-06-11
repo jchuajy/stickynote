@@ -15,3 +15,9 @@ Instructions:
 Clone respository
 Open index.html with your favourite web browser
 
+Future Improvements:
+Date/Timestamps
+Edit History
+Sorting functionality
+Improved front-end design
+Better mobile responsiveness
